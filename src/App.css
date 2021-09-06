@@ -24,6 +24,20 @@
   color: white;
 }
 
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background: #262626;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
 .App-link {
   color: #61dafb;
 }
