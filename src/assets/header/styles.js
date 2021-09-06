@@ -9,6 +9,7 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 24px;
   margin-bottom: 10px;
 
@@ -33,7 +34,7 @@ export const ButtonHeader = styled.button`
     color: #ffffff;
     text-transform: uppercase;
     border: none;
-    margin: 20px;
+    margin: 10px;
     
 
     :hover{
