@@ -52,6 +52,7 @@ export const RightContainer = styled.div`
 
 export const Title = styled.h1`
 
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     margin: 70px 0 70px 0;
     @media(max-width: 1450px) {
@@ -62,7 +63,7 @@ export const Title = styled.h1`
 `
 
 export const AboutText = styled.p`
-
+    
     font-size: 20px;
     margin: 3px;
 
@@ -102,6 +103,10 @@ export const DiscordButton = styled.button`
     transition: .6s;
     margin-bottom: 25px;
     margin-top: 55px;
+    :hover{
+        background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+        border: 0;
+    }
 
 
 

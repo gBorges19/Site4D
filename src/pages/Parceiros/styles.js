@@ -14,6 +14,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
 
+    font-family: 'Roboto', sans-serif;
     font-size: 60px;
     margin: 30px;
     @media(max-width: 800px){

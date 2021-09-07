@@ -10,7 +10,7 @@ export const GlobalContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 24px;
+  padding: 0;
   margin-top: 70px;
 
     @media(max-width: 1150px) {
@@ -35,8 +35,9 @@ export const Container = styled.div`
 
 export const Logo = styled.img`
 
-    margin: 10px;
+    margin: 10px 10px 10px 70px;
     @media(max-width: 1150px) {
+        margin: 10px;
         width: 30%;
         height: 30%;
     }
@@ -107,6 +108,7 @@ export const TitleSocial = styled.h2`
 export const TitleContato = styled.h2`
 
     font-size: 30px;
+    margin-bottom: 5px;
     @media(max-width: 1150px) {
         margin: 10px;
         font-size: 20px;
@@ -119,6 +121,7 @@ export const Copyright = styled.span`
     color: white;
     font-size: 15px;
     margin-left: 70px;
+    margin-bottom: 10px;
     @media(max-width: 1150px) {
         margin: 10px;
         font-size: 10px;

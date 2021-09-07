@@ -2,7 +2,7 @@ import React from 'react';
 import { GlobalContainer, Title } from './styles';
 
 
-function Organizacao(){
+function Midia(){
 
     return(
 
@@ -18,4 +18,4 @@ function Organizacao(){
 
 }
 
-export default Organizacao;
+export default Midia;
